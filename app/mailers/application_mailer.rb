@@ -1,5 +1,5 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'Brewhouse Rails Template <support@brewhouse-rails-template.com>'
+  default from: 'Blog Jsonapi Base64 <support@blog-jsonapi-base64.com>'
   layout 'mailer'
 
   include Roadie::Rails::Automatic
