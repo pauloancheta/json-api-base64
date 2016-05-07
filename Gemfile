@@ -24,6 +24,13 @@ gem 'rollbar'
 gem 'newrelic_rpm'
 
 gem 'dotenv-rails'
+gem 'carrierwave'
+
+# API TOOLS
+gem 'jsonapi-resources'
+gem 'carrierwave-base64'
+gem 'apitome'
+gem 'rspec_api_documentation'
 
 group :development do
   gem 'letter_opener'
