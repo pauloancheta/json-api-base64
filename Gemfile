@@ -54,6 +54,7 @@ group :test do
   gem 'capybara-screenshot'
   gem 'capybara-webkit'
   gem 'simplecov', require: false
+  gem 'webmock'
 end
 
 group :production do
