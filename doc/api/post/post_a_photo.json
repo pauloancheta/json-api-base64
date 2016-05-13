@@ -1,0 +1,47 @@
+{
+  "resource": "Post",
+  "http_method": "POST",
+  "route": "/api/posts",
+  "description": "Post a photo",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/api/posts",
+      "request_body": "{\"data\":{\"type\":\"posts\",\"attributes\":{\"image\":\"data:image/png;base64,validbase64\"}}}",
+      "request_headers": {
+        "Content-Type": "application/vnd.api+json",
+        "Accept": "application/vnd.api+json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/vnd.api+json",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\"data\":{\"id\":\"30\",\"type\":\"posts\",\"links\":{\"self\":\"http://example.org/api/posts/30\"},\"attributes\":{\"image\":{\"image\":{\"url\":\"https://res.cloudinary.com//image/upload/fptvxlthwcw6nfrut06e.png\"}}}}}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/vnd.api+json",
+        "Vary": "Accept-Encoding",
+        "ETag": "W/\"bc059bb1f3252bd1f9c4d5234c7c98b9\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Set-Cookie": "request_method=POST; path=/",
+        "X-Request-Id": "584f83d3-3c78-4c10-a3e9-5d7992f8da2f",
+        "X-Runtime": "0.139584",
+        "Content-Length": "195"
+      },
+      "response_content_type": "application/vnd.api+json",
+      "curl": null
+    }
+  ]
+}

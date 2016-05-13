@@ -33,3 +33,7 @@ RSpec.configure do |config|
   # You can call `create(:user)` instead of `FactoryGirl.create(:user)`
   config.include FactoryGirl::Syntax::Methods
 end
+
+RspecApiDocumentation.configure do |config|
+  config.format = :json
+end

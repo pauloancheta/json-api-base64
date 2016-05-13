@@ -1,0 +1,16 @@
+{
+  "resources": [
+    {
+      "name": "Post",
+      "examples": [
+        {
+          "description": "Post a photo",
+          "link": "post/post_a_photo.json",
+          "groups": "all",
+          "route": "/api/posts",
+          "method": "post"
+        }
+      ]
+    }
+  ]
+}
