@@ -25,6 +25,7 @@ gem 'newrelic_rpm'
 
 gem 'dotenv-rails'
 gem 'carrierwave'
+gem 'cloudinary'
 
 # API TOOLS
 gem 'jsonapi-resources'
