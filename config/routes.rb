@@ -5,22 +5,9 @@ Rails.application.routes.draw do
 
   devise_for :users
 
-  # Examples:
-  #
-  # resources :products do
-  #   member do
-  #     get 'short'
-  #     post 'toggle'
-  #   end
-  #
-  #   collection do
-  #     get 'sold'
-  #   end
-  #
-  #   resources :comments, :sales
-  # end
-
-  get '/styleguide', to: "styleguide#show"
+  namespace :api do
+    jsonapi_resources :posts
+  end
 
   mount Sidekiq::Web => (ENV['SIDEKIQ_PATH'] || '/sidekiq')
 end
