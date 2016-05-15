@@ -12,4 +12,5 @@
 /tags
 /tmp/*
 
-/config/environment_vars.rb
+/config/initializers/environment_vars.rb
+/public/uploads
